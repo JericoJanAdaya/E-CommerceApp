@@ -30,8 +30,8 @@ class HomeAppBar extends StatelessWidget {
         ),
         const Spacer(),
         badge.Badge(
-          badgeColor: Colors.red,
-          padding: const EdgeInsets.all(7),
+          badgeStyle: badge.BadgeStyle(
+              badgeColor: Colors.red, padding: EdgeInsets.all(7)),
           badgeContent: const Text(
             "3",
             style: TextStyle(
